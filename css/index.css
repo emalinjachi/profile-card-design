@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 226, 226);
+}
+#profile{
+    text-align: center;
+    width: 370px;
+    height: auto;
+    margin: auto;
+    margin-top: 5opx;
+    background-color: black;
+}
+#card{
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+
+}
+#stats{
+    display: flex;
+    justify-content: center;
+}
+#stats span{
+    margin: 20px;
+}
