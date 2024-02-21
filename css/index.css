@@ -7,26 +7,33 @@ body{
     background-color: rgb(236, 226, 226);
 }
 #profile{
-    text-align: center;
-    width: 370px;
-    height: aut0;
-    border-radius: 10px;
-    margin: auto;
-    background-color: black;
+    
+    
 }
 #card{
-    margin: 30px 0px;
+    display: inline-block;
+    text-align: center;
+    margin: 30px 10px;
+    background-color: black;
     padding-top: 30px;
+    border-radius: 10px;
+    width: 400px;
     color: white;
-
 }
 #stats{
     display: flex;
     justify-content: center;
 }
 #stats span{
-    margin: 20px;
+    margin: 10px;
 }
-img{
-    margin: 0px;
+
+
+
+
+  @media screen and (max-width: 450px){
+    #card{
+        width: 340px;
+    }
+     
 }
